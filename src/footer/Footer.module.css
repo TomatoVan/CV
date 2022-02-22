@@ -1,0 +1,32 @@
+.footer {
+    background-color: #12082e;
+}
+
+.wrapper {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.84);
+    font-weight: 100;
+}
+
+.linksWrapper {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+}
+
+.link  {
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.rights {
+    color: rgba(255, 255, 255, 0.84);
+}
