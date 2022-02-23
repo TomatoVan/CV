@@ -16,7 +16,7 @@ const Portfolio = () => {
 					</div>
 				</div>
 			</div>
-			<NavLink to={'/'}  className={app.linkBack}><img src={''}/>X</NavLink>
+			<NavLink to={'/CV'}  className={app.linkBack}><img src={''}/>X</NavLink>
 		</div>
 	);
 };
