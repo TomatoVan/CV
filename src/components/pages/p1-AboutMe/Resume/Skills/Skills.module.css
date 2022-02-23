@@ -1,0 +1,74 @@
+.skillBox {
+  width: 100%;
+  box-shadow: 0 -3px 16px 3px black;
+}
+.skillBox .skillHeadingBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 31.5px;
+  font-weight: 700;
+  background: black;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.skillBox .skillHeadingBox .skillHeading {
+  margin: 0;
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+  color: yellow;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 21px;
+}
+.skillBox .skillList {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  list-style: none;
+}
+.skillBox .skillList .skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  min-height: 140px;
+}
+.skillBox .skillList .skillItem .aboutIcon {
+  width: 30px;
+  height: 30px;
+}
+.skillBox .skillList .skillItem .skillTitle {
+  min-width: inherit;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  word-wrap: break-word;
+}
+@media (max-width: 900px) {
+  .skillBox .skillList .skillItem .aboutIcon {
+    font-size: 20px;
+  }
+  .skillBox .skillList .skillItem .skillTitle {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .skillBox .skillList .skillItem {
+    width: 48%;
+    min-height: 100px;
+  }
+  .skillBox .skillList .skillItem .aboutIcon {
+    font-size: 20px;
+  }
+  .skillBox .skillList .skillItem .skillTitle {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+ 

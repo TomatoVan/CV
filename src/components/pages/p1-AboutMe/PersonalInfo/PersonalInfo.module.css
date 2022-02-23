@@ -1,0 +1,121 @@
+.personalBox {
+    padding-bottom: 50px;
+    position: relative;
+}
+.personalBox .personalInfo .personalInfoTitle {
+    display: flex;
+}
+.personalBox .personalInfo .personalInfoTitle .personalIcon {
+    padding-right: 10px;
+    font-size: 16px;
+}
+.personalBox .personalInfo .personalInfoTitle .personalInfoHeading {
+    margin: 0 0 12px;
+    font-size: 20px;
+    line-height: 110%;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.personalBox .personalInfo .personalDesc {
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    text-align: justify-all;
+    text-indent: 2em;
+}
+.personalBox .personalInfo .personalDesc .subPersonalDesc {
+    margin: 0;
+}
+.personalBox .personalInfo .personalInfoInner {
+    width: 80%;
+    display: flex;
+    margin: 0;
+}
+.personalBox .personalInfo .personalInfoInner .personalInfoList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    height: 130px;
+    color: black;
+    margin: 0 0 30px;
+    width: 100%;
+}
+.personalBox .personalInfo .personalInfoInner .personalInfoList .personalInfoItem {
+    display: flex;
+    padding-bottom: 13px;
+    font-weight: 700;
+}
+.personalBox .personalInfo .personalInfoInner .personalInfoList .personalInfoItem .title {
+    margin-right: 8px;
+    color: #ffb400;
+}
+.personalBox .resume {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    border: 1px solid yellow;
+    width: 200px;
+}
+.personalBox .resume .resumeLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    height: 40px;
+    width: inherit;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: yellow;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.personalBox::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: yellow;
+    bottom: 0;
+}
+@media (max-width: 900px) {
+    .personalDesc {
+        width: 100%;
+    }
+    .personalDesc .personalInfoInner {
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .personalBox {
+        padding-bottom: 40px;
+    }
+    .personalBox .personalInfo .personalInfoTitle .personalInfoHeading {
+        margin: 0 0 12px;
+        font-size: 20px;
+        line-height: 110%;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .personalBox .personalInfo .personalDesc {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .personalBox .personalInfo .personalInfoInner {
+        width: 100%;
+        display: flex;
+        margin: 0;
+    }
+    .personalBox .personalInfo .personalInfoInner .personalInfoList {
+        height: auto;
+    }
+    .personalBox .personalInfo .personalInfoInner .personalInfoList .personalInfoItem {
+        padding-bottom: 20px;
+    }
+}
