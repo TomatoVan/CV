@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec74ec35.css",
+    "main.js": "/static/js/main.bff46ce5.js",
+    "static/js/787.a71561b8.chunk.js": "/static/js/787.a71561b8.chunk.js",
+    "static/media/FuturaPT-Light.eot": "/static/media/FuturaPT-Light.f24dc6ae7df8e317848f.eot",
+    "static/media/FuturaPT-Light.ttf": "/static/media/FuturaPT-Light.ba102592d3130f78636b.ttf",
+    "static/media/FuturaPT-Book.eot": "/static/media/FuturaPT-Book.55bc418ad8b9ed8d577c.eot",
+    "static/media/FuturaPT-Book.ttf": "/static/media/FuturaPT-Book.16ebcf48c36cedf12d82.ttf",
+    "static/media/FuturaPT-Light.woff": "/static/media/FuturaPT-Light.bcdac18d371a99c86ee4.woff",
+    "static/media/FuturaPT-Book.woff": "/static/media/FuturaPT-Book.4b3409651ccb2875bac1.woff",
+    "static/media/HelveticaNeueCyr-Light.eot": "/static/media/HelveticaNeueCyr-Light.fa2646c666ddd686575a.eot",
+    "static/media/HelveticaNeueCyr-Light.ttf": "/static/media/HelveticaNeueCyr-Light.371670cc0c4aa701241a.ttf",
+    "static/media/HelveticaNeueCyr-Light.woff": "/static/media/HelveticaNeueCyr-Light.c1b4dce50601b85b61e7.woff",
+    "static/media/HelveticaNeueCyr-Light.woff2": "/static/media/HelveticaNeueCyr-Light.ca1c9d28a98e39bc4088.woff2",
+    "static/media/js.svg": "/static/media/js.3e5ce96faef2517830ab37226763a896.svg",
+    "index.html": "/index.html",
+    "main.ec74ec35.css.map": "/static/css/main.ec74ec35.css.map",
+    "main.bff46ce5.js.map": "/static/js/main.bff46ce5.js.map",
+    "787.a71561b8.chunk.js.map": "/static/js/787.a71561b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec74ec35.css",
+    "static/js/main.bff46ce5.js"
+  ]
+}
