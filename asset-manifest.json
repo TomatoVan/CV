@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.e192aa24.css",
-    "main.js": "/CV/static/js/main.c04f1c1b.js",
+    "main.css": "/CV/static/css/main.24a784b9.css",
+    "main.js": "/CV/static/js/main.eb2c6571.js",
     "static/js/787.a71561b8.chunk.js": "/CV/static/js/787.a71561b8.chunk.js",
     "static/media/FuturaPT-Light.eot": "/CV/static/media/FuturaPT-Light.f24dc6ae7df8e317848f.eot",
     "static/media/FuturaPT-Light.ttf": "/CV/static/media/FuturaPT-Light.ba102592d3130f78636b.ttf",
@@ -15,12 +15,12 @@
     "static/media/HelveticaNeueCyr-Light.woff2": "/CV/static/media/HelveticaNeueCyr-Light.ca1c9d28a98e39bc4088.woff2",
     "static/media/js.svg": "/CV/static/media/js.3e5ce96faef2517830ab37226763a896.svg",
     "index.html": "/CV/index.html",
-    "main.e192aa24.css.map": "/CV/static/css/main.e192aa24.css.map",
-    "main.c04f1c1b.js.map": "/CV/static/js/main.c04f1c1b.js.map",
+    "main.24a784b9.css.map": "/CV/static/css/main.24a784b9.css.map",
+    "main.eb2c6571.js.map": "/CV/static/js/main.eb2c6571.js.map",
     "787.a71561b8.chunk.js.map": "/CV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e192aa24.css",
-    "static/js/main.c04f1c1b.js"
+    "static/css/main.24a784b9.css",
+    "static/js/main.eb2c6571.js"
   ]
 }
