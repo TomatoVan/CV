@@ -1,6 +1,5 @@
 .intro {
     text-align: center;
-    background-color: green;
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
@@ -10,9 +9,26 @@
     text-decoration: none;
     width: 50%;
     height: 50%;
-    border:solid;
     border-bottom: 10px solid black;
     border-right: 10px solid black;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.intro .textIntro {
+    color: #eee;
+    font-size: 20px;
+}
+
+.intro .textIntroName {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.intro .textIntroAccent {
+    color: #ffb400;
 }
 
 @media (max-width: 600px) {
