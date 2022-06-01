@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import s from './Menu.module.css'
-import Intro from "../2-Intro/Intro.";
+import Intro from "../2-Intro/Intro";
 import {PATH} from "../4-Routes/Routes";
 
 const Menu = () => {
