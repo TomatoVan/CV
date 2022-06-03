@@ -8,6 +8,7 @@
 .personalBox .personalInfo .personalInfoTitle .personalIcon {
     padding-right: 10px;
     font-size: 16px;
+    color: #ffb400;
 }
 .personalBox .personalInfo .personalInfoTitle .personalInfoHeading {
     margin: 0 0 12px;
@@ -18,7 +19,7 @@
 }
 .personalBox .personalInfo .personalDesc {
     width: 100%;
-    color: black;
+    color: white;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 30px;
@@ -39,8 +40,8 @@
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
-    height: 130px;
-    color: black;
+    height: 140px;
+    color: white;
     margin: 0 0 30px;
     width: 100%;
 }
@@ -58,7 +59,7 @@
     justify-content: center;
     align-content: center;
     background-color: black;
-    border: 1px solid yellow;
+    border: 1px solid #656c6d;
     width: 200px;
 }
 .personalBox .resume .resumeLink {
@@ -71,8 +72,8 @@
     width: inherit;
     font-weight: 700;
     text-align: center;
-    letter-spacing: 0.5px;
-    color: yellow;
+    letter-spacing: .5px;
+    color: #ffb400;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -81,7 +82,7 @@
     content: '';
     width: 100%;
     height: 1px;
-    background-color: yellow;
+    background-color: #656c6d;
     bottom: 0;
 }
 @media (max-width: 900px) {

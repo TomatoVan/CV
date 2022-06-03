@@ -12,7 +12,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: cornflowerblue;
+    background-color: #222;
+    color: white;
 }
 .aboutBox .aboutWrapper {
     position: relative;

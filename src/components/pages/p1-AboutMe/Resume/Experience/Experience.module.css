@@ -45,14 +45,14 @@
   font-size: 14px;
   line-height: 2;
   text-decoration: none;
-  color: black;
+  color: white;
   cursor: pointer;
 }
 .expBox .expList .expItem .expLink:hover {
   color: yellow;
 }
 .expBox .expList .expItem .expHeading {
-  color: black;
+  color: #ffb400;
   font-size: 14px;
   line-height: 16.5px;
   font-weight: 600;

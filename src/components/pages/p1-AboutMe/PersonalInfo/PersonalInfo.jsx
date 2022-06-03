@@ -1,14 +1,35 @@
 import React from 'react';
 import s from './PersonalInfo.module.css'
+import {faUser} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
+const personalInfo = [
+	{title: 'First Name: ', content: 'Leonid'},
+	{title: 'Last Name: ', content: 'Kovzel'},
+	{title: 'Date of birth: ', content: '13 June 2001'},
+	{title: 'English: ', content: 'Intermediate (in progress)'},
+	{title: 'Address: ', content: 'Yaroslavl, Russia'},
+	{title: 'Email: ', content: 'kovzel.leo@gmail.com'},
+	{title: 'Phone: ', content: '+7(980)-707-20-83'},
+	{title: 'Telegram: ', content: '@LeonKovz'},
+]
 
 
 const PersonalInfo = () => {
+
+	let info = personalInfo.map((elem, index) => {
+		return (
+		<li className={s.personalInfoItem} key={index} >
+			<span className={s.title}>{elem.title}</span>
+			<span className={s.content}>{elem.content}</span>
+		</li>)
+	})
 
 	return (
 		<div className={s.personalBox}>
 			<div className={s.personalInfo}>
 				<div className={s.personalInfoTitle}>
-					<span className={s.personalIcon}>*Icon*</span>
+					<span className={s.personalIcon}><FontAwesomeIcon icon={faUser}/></span>
 					<h4 className={s.personalInfoHeading}>Personal Info</h4>
 				</div>
 				<div className={s.personalDesc}>
@@ -18,30 +39,7 @@ const PersonalInfo = () => {
 				</div>
 				<div className={s.personalInfoInner}>
 					<ul className={s.personalInfoList}>
-						<li className={s.personalInfoItem} >
-							<span className={s.title}>title:</span>
-							<span className={s.content}>content</span>
-						</li>
-						<li className={s.personalInfoItem} >
-							<span className={s.title}>title:</span>
-							<span className={s.content}>content</span>
-						</li>
-						<li className={s.personalInfoItem} >
-							<span className={s.title}>title:</span>
-							<span className={s.content}>content</span>
-						</li>
-						<li className={s.personalInfoItem} >
-							<span className={s.title}>title:</span>
-							<span className={s.content}>content</span>
-						</li>
-						<li className={s.personalInfoItem} >
-							<span className={s.title}>title:</span>
-							<span className={s.content}>content</span>
-						</li>
-						<li className={s.personalInfoItem} >
-							<span className={s.title}>title:</span>
-							<span className={s.content}>content</span>
-						</li>
+						{info}
 					</ul>
 				</div>
 			</div>

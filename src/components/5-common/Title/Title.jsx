@@ -1,8 +1,9 @@
 import React from 'react';
 import s from './Title.module.css'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
-export const Title = ({title, accentTitle}) => {
+export const Title = ({title, accentTitle, icon}) => {
 	return (
 		<>
 			<h2 className={s.aboutTitle}>
@@ -11,7 +12,7 @@ export const Title = ({title, accentTitle}) => {
 			</h2>
 			<div className={s.aboutWrapperIcon}>
 				<span className={s.outerLine}/>
-				<span className={s.aboutIcon}>*icon*</span>
+				<span className={s.aboutIcon}><FontAwesomeIcon icon={icon}/></span>
 				<span className={s.outerLine}/>
 			</div>
 		</>

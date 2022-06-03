@@ -12,7 +12,7 @@
   height: 60px;
 }
 .aboutTitle_white {
-  color: black;
+  color: white;
   display: inline-block;
   position: relative;
   transition: transform 0.3s;
@@ -34,13 +34,13 @@
 .outerLine {
   display: inline-block;
   vertical-align: middle;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid #656c6d;
   width: 25%;
 }
 .aboutIcon {
   margin: 0 20px;
-  color: black;
   font-size: 20px;
+  color: #ffb400;
 }
 @media (max-width: 600px) {
   .aboutTitle {
