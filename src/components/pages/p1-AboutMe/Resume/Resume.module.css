@@ -27,22 +27,22 @@
   outline: none;
   justify-content: center;
   align-content: center;
-  background-color: black;
-  border: 1px solid yellow;
+  background-color: #11111157;
+  border: 1px solid #656c6d;
   width: 200px;
   font-size: 15px;
   height: 40px;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.5px;
-  color: yellow;
+  color: #ffb400;
   cursor: pointer;
 }
 .active {
   font-weight: 700;
-  background-color: yellow;
-  border: 1px solid black;
-  color: black;
+  background-color: #ffb400;
+  border: 1px solid #ffb400;
+  color: white;
   outline: none;
   cursor: pointer;
 }

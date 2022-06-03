@@ -17,12 +17,15 @@
   width: 100%;
   padding: 24px;
   text-align: center;
-  color: yellow;
+  color: #ffb400;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 21px;
 }
 .expBox .expList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0 0 0 24px;
   margin: 0;
 }
@@ -42,7 +45,7 @@
   background: #ffb400;
 }
 .expBox .expList .expItem .expLink {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 2;
   text-decoration: none;
   color: white;
@@ -53,7 +56,7 @@
 }
 .expBox .expList .expItem .expHeading {
   color: #ffb400;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 16.5px;
   font-weight: 600;
   margin: 0 0 10px;

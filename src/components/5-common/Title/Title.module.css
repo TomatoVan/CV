@@ -18,7 +18,7 @@
   transition: transform 0.3s;
 }
 .aboutTitle_yellow {
-  color: blueviolet;
+  color: #ffb400;
   display: inline-block;
   position: relative;
   transition: transform 0.3s;
