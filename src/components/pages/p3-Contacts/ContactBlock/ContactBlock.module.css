@@ -1,17 +1,18 @@
 .contactBox {
     display: flex;
     padding: 0 24px;
+
 }
 .contactList {
     width: 35.3%;
     padding: 24px;
     background: black;
-    border: 1px solid black;
+    border: 1px solid #333;
     margin: 0;
     list-style: none;
 }
 .contactTitle {
-    color: yellow;
+    color: #ffb400;
     margin: 18px 0;
     font-size: 20px;
     line-height: 30px;
@@ -19,14 +20,23 @@
     text-transform: uppercase;
 }
 .contactText {
-    color: yellow;
+    color: #eee;
     font-size: 16px;
     text-decoration: none;
 }
+.contactLink {
+    color: #eee;
+    font-size: 16px;
+    text-decoration: none;
+}
+.contactLink:hover {
+    color: #ffb400;
+}
+
 .contactIcon {
     padding-right: 10px;
     opacity: 0.6;
-    color: yellow;
+    color: white;
 }
 @media (max-width: 1050px) {
     .contactList {
