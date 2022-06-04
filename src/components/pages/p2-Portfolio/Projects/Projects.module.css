@@ -24,6 +24,7 @@
 .tiles .tile img {
     display: block;
     max-width: 100%;
+    backface-visibility: hidden;
 }
 .tiles .tile .details {
     font-size: 16px;
