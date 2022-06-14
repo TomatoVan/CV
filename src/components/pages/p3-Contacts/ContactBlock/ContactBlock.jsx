@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './ContactBlock.module.css';
+import s from './ContactBlock.module.scss';
 import {ContactFormBlock} from "./ContactFormBlock/ContactFormBlock";
 import {faMapMarkedAlt, faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faTelegramPlane} from '@fortawesome/free-brands-svg-icons';

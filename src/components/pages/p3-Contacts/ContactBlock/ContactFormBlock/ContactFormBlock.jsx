@@ -1,5 +1,5 @@
 import React, {FC, useState} from 'react';
-import s from './ContactFormBlock.module.css';
+import s from './ContactFormBlock.module.scss';
 
 
 

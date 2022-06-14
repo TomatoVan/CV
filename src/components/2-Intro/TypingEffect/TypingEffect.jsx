@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import s from '../Intro.module.css'
+import s from '../Intro.module.scss'
 
 export const TypingEffect = () => {
 	return (

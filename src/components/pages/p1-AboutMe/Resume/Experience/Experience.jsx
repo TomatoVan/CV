@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Experience.module.css'
+import s from './Experience.module.scss'
 import {v1} from "uuid";
 
 const experience = [

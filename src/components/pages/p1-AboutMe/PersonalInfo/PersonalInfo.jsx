@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './PersonalInfo.module.css'
+import s from './PersonalInfo.module.scss'
 import {faUser} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 

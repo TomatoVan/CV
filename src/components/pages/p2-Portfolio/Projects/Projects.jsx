@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Projects.module.css';
+import s from './Projects.module.scss';
 import {v1} from "uuid";
 import cover from "../Projects/ProjectCover/social.jpg"
 

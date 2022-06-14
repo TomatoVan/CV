@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Intro.module.css'
+import s from './Intro.module.scss'
 import {TypingEffect} from "./TypingEffect/TypingEffect";
 
 const Intro = () => {

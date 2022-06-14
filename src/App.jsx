@@ -1,5 +1,5 @@
 import React from 'react';
-import s from  './App.module.css';
+import s from './App.module.scss';
 import Avatar from "./components/1-Avatar/Avatar";
 import Menu from "./components/3-Menu/Menu";
 import AllRoutes from "./components/4-Routes/Routes";
