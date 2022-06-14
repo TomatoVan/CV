@@ -14,16 +14,17 @@
     justify-content: space-around;
     background-color: #222;
     color: white;
+    .aboutWrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .aboutInner {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 24px;
+        }
+    }
 }
-.aboutBox .aboutWrapper {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.aboutBox .aboutWrapper .aboutInner {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 24px;
-}
+
 

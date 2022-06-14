@@ -13,22 +13,19 @@
     border-right: 10px solid #111111;
     flex-direction: column;
     color: #ffffff;
-}
-
-.intro .textIntro {
-    color: #eee;
-    font-size: 20px;
-}
-
-.intro .textIntroName {
-    color: #ffffff;
-    font-size: 35px;
-    margin: 20px 0;
-    text-align: center;
-}
-
-.intro .textIntroAccent {
-    color: #ffb400;
+    .textIntro {
+        color: #eee;
+        font-size: 20px;
+    }
+    .textIntroName {
+        color: #ffffff;
+        font-size: 35px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .textIntroAccent {
+        color: #ffb400;
+    }
 }
 
 @media (max-width: 600px) {
@@ -39,11 +36,11 @@
         height: 20%;
         border-bottom: none;
         border-right: none;
-    }
-    .intro .textIntro {
-        font-size: 16px;
-    }
-    .intro .textIntroName {
-        font-size: 25px;
+        .textIntro {
+            font-size: 16px;
+        }
+        .textIntroName {
+            font-size: 25px;
+        }
     }
 }

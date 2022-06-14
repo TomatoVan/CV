@@ -4,20 +4,21 @@
   justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 50px;
+  .resumeBtnBox {
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    width: 33.3%;
+  }
+  .resumeComponentBox {
+    display: flex;
+    width: 66.6%;
+    border: 1px solid black;
+    margin-left: 24px;
+    min-height: 660px;
+  }
 }
-.resumeBox .resumeBtnBox {
-  display: flex;
-  flex-direction: column;
-  padding-right: 24px;
-  width: 33.3%;
-}
-.resumeBox .resumeComponentBox {
-  display: flex;
-  width: 66.6%;
-  border: 1px solid black;
-  margin-left: 24px;
-  min-height: 660px;
-}
+
 .resumeBtn {
   line-height: 110%;
   text-transform: uppercase;
@@ -49,16 +50,16 @@
 @media (max-width: 600px) {
   .resumeBox {
     flex-direction: column;
-  }
-  .resumeBox .resumeBtnBox {
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 0;
-  }
-  .resumeBox .resumeComponentBox {
-    display: flex;
-    width: 100%;
-    margin-left: 0;
+    .resumeBtnBox {
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 0;
+    }
+    .resumeComponentBox {
+      display: flex;
+      width: 100%;
+      margin-left: 0;
+    }
   }
 }

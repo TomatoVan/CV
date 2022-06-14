@@ -8,58 +8,67 @@
 .tiles {
     width: 450px;
     margin-bottom: 20px;
-}
-.tiles .tile {
-    display: inline-block;
-    margin: 10px;
-    text-align: left;
-    overflow: hidden;
-    position: relative;
-    border-radius: 3px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+    .tile {
+        display: inline-block;
+        margin: 10px;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+        border-radius: 3px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+        img {
+            display: block;
+            max-width: 100%;
+            backface-visibility: hidden;
+        }
+        .details {
+            width: 100%;
+            border-bottom-left-radius: 16px;
+            border-bottom-right-radius: 16px;
+            font-size: 16px;
+            padding: 20px;
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            span {
+                display: block;
+                opacity: 0;
+                position: relative;
+                top: 100px;
+                transition-property: top, opacity;
+                transition-duration: 0.3s;
+                transition-delay: 0s;
+            }
+            .title {
+                line-height: 1;
+                font-weight: 600;
+                font-size: 25px;
+                margin-bottom: 15px;
+                color: #ffb400;
+            }
+            .info {
+                line-height: 1.2;
+                margin-top: 5px;
+                font-size: 12px;
+                opacity: 1;
+            }
+        }
+    }
 }
 .projectImage {
     border-radius: 20px;
 }
-.tiles .tile img {
-    display: block;
-    max-width: 100%;
-    backface-visibility: hidden;
-}
-.tiles .tile .details {
-    font-size: 16px;
-    padding: 20px;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.details {
-    width: 100%;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-}
-.tiles .tile .details span {
-    display: block;
-    opacity: 0;
-    position: relative;
-    top: 100px;
-    transition-property: top, opacity;
-    transition-duration: 0.3s;
-    transition-delay: 0s;
-}
-.tiles .tile .details .title {
-    line-height: 1;
-    font-weight: 600;
-    font-size: 25px;
-    margin-bottom: 15px;
-    color: #ffb400;
-}
+
 .link {
     margin-left: 5px;
     font-size: 15px;
     text-decoration: none;
     color: white;
+    :hover {
+        color: #ffb400;
+        transition: 0.3ms;
+    }
 }
 .icon {
     color: #ffb400;
@@ -69,16 +78,8 @@
     justify-content: flex-start;
     align-items: center;
 }
-.link:hover {
-    color: #ffb400;
-    transition: 0.3ms;
-}
-.tiles .tile .details .info {
-    line-height: 1.2;
-    margin-top: 5px;
-    font-size: 12px;
-    opacity: 1;
-}
+
+
 .tiles .tile:focus:before, .tiles .tile:focus span, .tiles .tile:hover:before, .tiles .tile:hover span {
     opacity: 1;
 }

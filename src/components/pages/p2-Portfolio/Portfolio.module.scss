@@ -13,20 +13,21 @@
     width: 100%;
     height: 100%;
     background-color: #222;
+    .portfolioWrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .portfolioInner {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 24px;
+            .portfolioProjects {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+        }
+    }
 }
-.portfolio .portfolioWrapper {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.portfolio .portfolioWrapper .portfolioInner {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 24px;
-}
-.portfolio .portfolioWrapper .portfolioInner .portfolioProjects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+

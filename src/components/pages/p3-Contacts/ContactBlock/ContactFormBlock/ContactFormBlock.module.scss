@@ -60,9 +60,9 @@
     -webkit-box-shadow: inset 0 0 0 50px #222;
     color: #eee;
     -webkit-text-fill-color: #eee;
-}
-.input:focus {
-    border-bottom: 1px solid #ffb400;
+    :focus {
+        border-bottom: 1px solid #ffb400;
+    }
 }
 @media (max-width: 600px) {
     .contactBox {
