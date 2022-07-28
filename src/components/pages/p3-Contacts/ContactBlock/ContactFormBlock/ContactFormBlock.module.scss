@@ -1,3 +1,5 @@
+@import "src/assets/sass/variables";
+
 .formTitle {
     color: white;
     font-weight: 700;
@@ -30,7 +32,7 @@
     color: red;
 }
 .formBtn {
-    background: #ffb400;
+    background: $accentText;
     height: 42px;
     width: 100%;
     line-height: 42px;
@@ -55,13 +57,13 @@
     width: 100%;
     outline: none;
     border: none;
-    border-bottom: 1px solid #656c6d;
-    background-color: #222;
-    -webkit-box-shadow: inset 0 0 0 50px #222;
-    color: #eee;
-    -webkit-text-fill-color: #eee;
+    border-bottom: 1px solid $line;
+    background-color: $bgSecondary;
+    -webkit-box-shadow: inset 0 0 0 50px $bgSecondary;
+    color: $secondaryText;
+    -webkit-text-fill-color: $secondaryText;
     :focus {
-        border-bottom: 1px solid #ffb400;
+        border-bottom: 1px solid $accentText;
     }
 }
 @media (max-width: 600px) {

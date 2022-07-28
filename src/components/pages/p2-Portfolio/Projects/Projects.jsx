@@ -4,7 +4,7 @@ import {v1} from "uuid";
 import cover from "../Projects/ProjectCover/social.jpg"
 
 const projects = [
-	{id: v1(), heading: 'Todolist', demo: 'https://tomatovan.github.io/Todolist/', github: 'https://github.com/TomatoVan/Todolist', image: cover},
+	{id: v1(), heading: 'Todolist', demo: 'https://tomatovan.github.io/To-Do-List/', github: 'https://github.com/TomatoVan/To-Do-List', image: cover},
 	{id: v1(), heading: 'Social NetWork', demo: ' https://tomatovan.github.io/Social-Network/', github: 'https://github.com/TomatoVan/Social-Network', image: cover},
 	{id: v1(), heading: 'Interesting things', demo: 'https://tomatovan.github.io/Homeworks/', github: 'https://github.com/TomatoVan/Homeworks', image: cover},
 	{id: v1(), heading: 'Counter', demo: 'https://tomatovan.github.io/Counter_React/', github: 'https://github.com/TomatoVan/Counter_React', image: cover}

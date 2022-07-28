@@ -1,5 +1,7 @@
+@import "src/assets/sass/variables";
+
 .linkBox {
-    background-color: #222;
+    background-color: $bgSecondary;
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
@@ -12,26 +14,26 @@
 }
 
 .borderBtmLeft {
-    border-bottom: 10px solid #111;
-    border-left: 10px solid #111;
+    border-bottom: 10px solid $bgPrimary;
+    border-left: 10px solid $bgPrimary;
 }
 
 .borderTopRight {
-    border-top: 10px solid #111;
-    border-right: 10px solid #111;
+    border-top: 10px solid $bgPrimary;
+    border-right: 10px solid $bgPrimary;
 }
 
 .borderTopLeft {
-    border-top: 10px solid #111;
-    border-left: 10px solid #111;
+    border-top: 10px solid $bgPrimary;
+    border-left: 10px solid $bgPrimary;
 }
 
 .white {
-    color: white;
+    color: $primaryText;
 }
 
 .accent {
-    color: yellow;
+    color: $accentText;
 }
 
 @media (max-width: 600px) {

@@ -1,6 +1,8 @@
+@import "src/assets/sass/variables";
+
 .skillBox {
   width: 100%;
-  box-shadow: 0 -3px 16px 3px #333;
+  box-shadow: 0 -3px 16px 3px $border;
     .skillHeadingBox {
         display: flex;
         justify-content: center;
@@ -9,13 +11,13 @@
         font-weight: 700;
         background: black;
         width: 100%;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid $border;
         .skillHeading {
             margin: 0;
             width: 100%;
             padding: 24px;
             text-align: center;
-            color: #ffb400;
+            color: $accentText;
             text-transform: uppercase;
             font-weight: bold;
             font-size: 21px;

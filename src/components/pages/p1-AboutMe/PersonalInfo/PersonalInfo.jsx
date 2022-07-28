@@ -2,6 +2,7 @@ import React from 'react';
 import s from './PersonalInfo.module.scss'
 import {faUser} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import MyPDF from '../CV/cv.pdf';
 
 const personalInfo = [
 	{title: 'First Name: ', content: 'Leonid'},
@@ -45,7 +46,7 @@ const PersonalInfo = () => {
 			</div>
 			<div className={s.resume}>
 				<a className={s.resumeLink}
-				   href={''} download={''}
+				   href={MyPDF} download={'cv_Leonid_Kovzel'}
 				   target="_blank" rel="noopener noreferrer">Download CV</a>
 			</div>
 		</div>

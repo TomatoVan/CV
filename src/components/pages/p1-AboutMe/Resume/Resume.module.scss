@@ -1,3 +1,5 @@
+@import "src/assets/sass/variables";
+
 .resumeBox {
   display: flex;
   align-items: center;
@@ -13,7 +15,7 @@
   .resumeComponentBox {
     display: flex;
     width: 66.6%;
-    border: 1px solid black;
+    border: 1px solid $border;
     margin-left: 24px;
     min-height: 660px;
   }
@@ -28,21 +30,21 @@
   outline: none;
   justify-content: center;
   align-content: center;
-  background-color: #11111157;
-  border: 1px solid #656c6d;
+  background-color: $bgFourth;
+  border: 1px solid $line;
   width: 200px;
   font-size: 15px;
   height: 40px;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.5px;
-  color: #ffb400;
+  color: $accentText;
   cursor: pointer;
 }
 .active {
   font-weight: 700;
-  background-color: #ffb400;
-  border: 1px solid #ffb400;
+  background-color: $accentText;
+  border: 1px solid $accentText;
   color: white;
   outline: none;
   cursor: pointer;

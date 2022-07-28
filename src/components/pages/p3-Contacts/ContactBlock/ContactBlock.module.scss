@@ -1,3 +1,5 @@
+@import "src/assets/sass/variables";
+
 .contactBox {
     display: flex;
     padding: 0 24px;
@@ -6,13 +8,13 @@
 .contactList {
     width: 35.3%;
     padding: 24px;
-    background: black;
-    border: 1px solid #333;
+    background: $bgPrimary;
+    border: 1px solid $border;
     margin: 0;
     list-style: none;
 }
 .contactTitle {
-    color: #ffb400;
+    color: $accentText;
     margin: 18px 0;
     font-size: 20px;
     line-height: 30px;
@@ -20,17 +22,17 @@
     text-transform: uppercase;
 }
 .contactText {
-    color: #eee;
+    color:$secondaryText;
     font-size: 16px;
     text-decoration: none;
 }
 .contactLink {
-    color: #eee;
+    color: $secondaryText;
     font-size: 16px;
     text-decoration: none;
 }
 .contactLink:hover {
-    color: #ffb400;
+    color: $accentText;
 }
 
 .contactIcon {

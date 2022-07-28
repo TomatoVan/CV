@@ -1,3 +1,5 @@
+@import "src/assets/sass/variables";
+
 .contacts {
     z-index: 1000;
     position: absolute;
@@ -12,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #222;
+    background-color: $bgSecondary;
     .contactsWrapper {
         position: relative;
         display: flex;

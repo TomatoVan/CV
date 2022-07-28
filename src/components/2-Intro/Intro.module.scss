@@ -1,3 +1,5 @@
+@import "src/assets/sass/variables";
+
 .intro {
     text-align: center;
     font-size: 30px;
@@ -9,22 +11,22 @@
     text-decoration: none;
     width: 50%;
     height: 50%;
-    border-bottom: 10px solid #111111;
-    border-right: 10px solid #111111;
+    border-bottom: 10px solid $bgPrimary;
+    border-right: 10px solid $bgPrimary;
     flex-direction: column;
-    color: #ffffff;
+    color: $primaryText;
     .textIntro {
-        color: #eee;
+        color: $secondaryText;
         font-size: 20px;
     }
     .textIntroName {
-        color: #ffffff;
+        color: $primaryText;
         font-size: 35px;
         margin: 20px 0;
         text-align: center;
     }
     .textIntroAccent {
-        color: #ffb400;
+        color:  $accentText;
     }
 }
 

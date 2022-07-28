@@ -1,6 +1,8 @@
+@import "src/assets/sass/variables";
+
 .expBox {
   width: 100%;
-    box-shadow: 0 -3px 16px 3px #333;
+    box-shadow: 0 -3px 16px 3px $border;
     .expBoxTitle {
         display: flex;
         justify-content: center;
@@ -9,13 +11,13 @@
         font-weight: 700;
         background: black;
         width: 100%;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid $border;
         .expTitle {
             margin: 0;
             width: 100%;
             padding: 24px;
             text-align: center;
-            color: #ffb400;
+            color: $accentText;
             text-transform: uppercase;
             font-weight: bold;
             font-size: 21px;
@@ -39,18 +41,18 @@
                 color: white;
                 cursor: pointer;
                 :hover {
-                    color: yellow;
+                    color: $accentText;
                 }
             }
             .expHeading {
-                color: #ffb400;
+                color: $accentText;
                 font-size: 20px;
                 line-height: 16.5px;
                 font-weight: 600;
                 margin: 0 0 10px;
             }
             .expYear {
-                color: black;
+                color: $secondaryText;
                 margin: 0;
                 opacity: 0.8;
                 font-size: 12px;
