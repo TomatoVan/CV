@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.9e80c71f.css",
-    "main.js": "/CV/static/js/main.a074e102.js",
+    "main.css": "/CV/static/css/main.6e47b92c.css",
+    "main.js": "/CV/static/js/main.b76f8067.js",
     "static/js/787.a71561b8.chunk.js": "/CV/static/js/787.a71561b8.chunk.js",
+    "static/media/cv.pdf": "/CV/static/media/cv.f9d4b048c38984a07f62.pdf",
     "static/media/FuturaPT-Light.eot": "/CV/static/media/FuturaPT-Light.f24dc6ae7df8e317848f.eot",
     "static/media/FuturaPT-Light.ttf": "/CV/static/media/FuturaPT-Light.ba102592d3130f78636b.ttf",
     "static/media/FuturaPT-Book.eot": "/CV/static/media/FuturaPT-Book.55bc418ad8b9ed8d577c.eot",
@@ -25,12 +26,12 @@
     "static/media/html.svg": "/CV/static/media/html.b26a480f403b62d4bf72865844bc2810.svg",
     "index.html": "/CV/index.html",
     "static/media/css.svg": "/CV/static/media/css.1a81e060f9e38d76d69cfa15161fda7c.svg",
-    "main.9e80c71f.css.map": "/CV/static/css/main.9e80c71f.css.map",
-    "main.a074e102.js.map": "/CV/static/js/main.a074e102.js.map",
+    "main.6e47b92c.css.map": "/CV/static/css/main.6e47b92c.css.map",
+    "main.b76f8067.js.map": "/CV/static/js/main.b76f8067.js.map",
     "787.a71561b8.chunk.js.map": "/CV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e80c71f.css",
-    "static/js/main.a074e102.js"
+    "static/css/main.6e47b92c.css",
+    "static/js/main.b76f8067.js"
   ]
 }
