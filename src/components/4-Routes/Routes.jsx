@@ -1,9 +1,8 @@
 import React from 'react';
-import {Navigate, Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import AboutMe from "../pages/p1-AboutMe/AboutMe";
 import Portfolio from "../pages/p2-Portfolio/Portfolio";
 import Contacts from "../pages/p3-Contacts/Contacts";
-import Error404 from "../pages/p4- Error404/Error404";
 
 export const PATH = {
 	ABOUT: '/about',
