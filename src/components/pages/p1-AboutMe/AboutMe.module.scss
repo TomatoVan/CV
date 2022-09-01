@@ -1,32 +1,37 @@
-@import "src/assets/sass/variables";
+@import 'src/assets/sass/variables';
 
 .aboutBox {
-    z-index: 1000;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    overflow-y: auto;
-    left: 0 !important;
-    padding: 0;
-    margin: 0;
-    top: 0;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0 !important;
+
+  overflow: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  color: white;
+
+  background-color: $bgSecondary;
+  .aboutWrapper {
+    position: relative;
+
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: $bgSecondary;
-    color: white;
-    .aboutWrapper {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        .aboutInner {
-            display: flex;
-            flex-direction: column;
-            padding: 10px 24px;
-        }
+    flex-direction: column;
+
+    width: 100%;
+    .aboutInner {
+      display: flex;
+      flex-direction: column;
+
+      padding: 10px 24px;
     }
+  }
 }
-
-

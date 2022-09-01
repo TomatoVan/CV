@@ -1,44 +1,48 @@
 .wrapper {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-
 .rightSide {
-    position: absolute;
-    left: 33.3333333333%;
-    top: 0;
-    overflow: hidden;
-    height: calc(100vh - 48px);
-    width: 65%;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-between;
-    margin: 24px 0 0;
+  position: absolute;
+  top: 0;
+  left: 33.3333333333%;
+
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+
+  width: 65%;
+  height: calc(100vh - 48px);
+  margin: 24px 0 0;
+  padding: 0;
 }
 
 .linkBack {
-    position: absolute;
-    top: 32px;
-    right: 48px;
-    width: 30px;
-    cursor: pointer;
-    z-index: 100;
+  cursor: pointer;
+
+  position: absolute;
+  z-index: 100;
+  top: 32px;
+  right: 48px;
+
+  width: 30px;
 }
 
 @media (max-width: 900px) {
-    .rightSide {
-        width: 100%;
-        left: 0 !important;
-        position: relative;
-        padding: 0 20px;
-    }
+  .rightSide {
+    position: relative;
+    left: 0 !important;
+
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 600px) {
-    .linkBack {
-        right: 20px;
-        top: 10px;
-    }
+  .linkBack {
+    top: 10px;
+    right: 20px;
+  }
 }

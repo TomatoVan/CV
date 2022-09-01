@@ -1,67 +1,75 @@
-@import "src/assets/sass/variables";
+@import 'src/assets/sass/variables';
 
 .expBox {
   width: 100%;
-    box-shadow: 0 -3px 16px 3px $border;
-    .expBoxTitle {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        line-height: 31.5px;
-        font-weight: 700;
-        background: black;
-        width: 100%;
-        border-bottom: 1px solid $border;
-        .expTitle {
-            margin: 0;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-            color: $accentText;
-            text-transform: uppercase;
-            font-weight: bold;
-            font-size: 21px;
-        }
+
+  box-shadow: 0 -3px 16px 3px $border;
+  .expBoxTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    font-weight: 700;
+    line-height: 31.5px;
+
+    background: black;
+    border-bottom: 1px solid $border;
+    .expTitle {
+      width: 100%;
+      margin: 0;
+      padding: 24px;
+
+      font-size: 21px;
+      font-weight: bold;
+      color: $accentText;
+      text-align: center;
+      text-transform: uppercase;
     }
-    .expList {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 0 0 24px;
+  }
+  .expList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0 0 0 24px;
+    .expItem {
+      position: relative;
+
+      margin: 34px 0;
+      padding: 0;
+
+      list-style: none;
+      .expLink {
+        cursor: pointer;
+
+        font-size: 15px;
+        line-height: 2;
+        color: white;
+        text-decoration: none;
+        :hover {
+          color: $accentText;
+        }
+      }
+      .expHeading {
+        margin: 0 0 10px;
+
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 16.5px;
+        color: $accentText;
+      }
+      .expYear {
         margin: 0;
-        .expItem {
-            padding: 0;
-            list-style: none;
-            position: relative;
-            margin: 34px 0;
-            .expLink {
-                font-size: 15px;
-                line-height: 2;
-                text-decoration: none;
-                color: white;
-                cursor: pointer;
-                :hover {
-                    color: $accentText;
-                }
-            }
-            .expHeading {
-                color: $accentText;
-                font-size: 20px;
-                line-height: 16.5px;
-                font-weight: 600;
-                margin: 0 0 10px;
-            }
-            .expYear {
-                color: $secondaryText;
-                margin: 0;
-                opacity: 0.8;
-                font-size: 12px;
-                padding-bottom: 7px;
-            }
-        }
+        padding-bottom: 7px;
+
+        font-size: 12px;
+        color: $secondaryText;
+
+        opacity: 0.8;
+      }
     }
+  }
 }
-
-
-
- 

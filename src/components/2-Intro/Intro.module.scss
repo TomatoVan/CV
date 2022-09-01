@@ -1,48 +1,54 @@
-@import "src/assets/sass/variables";
+@import 'src/assets/sass/variables';
 
 .intro {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    width: 50%;
-    height: 50%;
-    border-bottom: 10px solid $bgPrimary;
-    border-right: 10px solid $bgPrimary;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+  height: 50%;
+
+  font-size: 30px;
+  font-weight: 900;
+  color: $primaryText;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border-right: 10px solid $bgPrimary;
+  border-bottom: 10px solid $bgPrimary;
+  .textIntro {
+    font-size: 20px;
+    color: $secondaryText;
+  }
+  .textIntroName {
+    margin: 20px 0;
+
+    font-size: 35px;
     color: $primaryText;
-    .textIntro {
-        color: $secondaryText;
-        font-size: 20px;
-    }
-    .textIntroName {
-        color: $primaryText;
-        font-size: 35px;
-        margin: 20px 0;
-        text-align: center;
-    }
-    .textIntroAccent {
-        color:  $accentText;
-    }
+    text-align: center;
+  }
+  .textIntroAccent {
+    color: $accentText;
+  }
 }
 
 @media (max-width: 600px) {
-    .intro {
-        margin-bottom: 5px;
-        font-size: 20px;
-        width: 100%;
-        height: 20%;
-        border-bottom: none;
-        border-right: none;
-        .textIntro {
-            font-size: 16px;
-        }
-        .textIntroName {
-            font-size: 25px;
-        }
+  .intro {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5px;
+
+    font-size: 20px;
+
+    border-right: none;
+    border-bottom: none;
+    .textIntro {
+      font-size: 16px;
     }
+    .textIntroName {
+      font-size: 25px;
+    }
+  }
 }
