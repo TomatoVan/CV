@@ -2,7 +2,12 @@ import React from 'react'
 
 import { v1 } from 'uuid'
 
+import cards from '../Projects/ProjectCover/cards.jpg'
+import counter from '../Projects/ProjectCover/counter.jpg'
+import SN from '../Projects/ProjectCover/SN.jpg'
 import cover from '../Projects/ProjectCover/social.jpg'
+import things from '../Projects/ProjectCover/things.jpg'
+import todo from '../Projects/ProjectCover/todo.jpg'
 
 import s from './Projects.module.scss'
 
@@ -12,28 +17,35 @@ const projects = [
     heading: 'Todolist',
     demo: 'https://tomatovan.github.io/To-Do-List/',
     github: 'https://github.com/TomatoVan/To-Do-List',
-    image: cover,
+    image: todo,
   },
   {
     id: v1(),
-    heading: 'Social NetWork',
+    heading: 'Social Network',
     demo: ' https://tomatovan.github.io/Social-Network/',
     github: 'https://github.com/TomatoVan/Social-Network',
-    image: cover,
+    image: SN,
+  },
+  {
+    id: v1(),
+    heading: 'Cards',
+    demo: 'https://tomatovan.github.io/cards-slip/',
+    github: 'https://github.com/TomatoVan/cards-slip',
+    image: cards,
   },
   {
     id: v1(),
     heading: 'Interesting things',
     demo: 'https://tomatovan.github.io/Homeworks/',
     github: 'https://github.com/TomatoVan/Homeworks',
-    image: cover,
+    image: things,
   },
   {
     id: v1(),
     heading: 'Counter',
     demo: 'https://tomatovan.github.io/Counter_React/',
     github: 'https://github.com/TomatoVan/Counter_React',
-    image: cover,
+    image: counter,
   },
 ]
 
