@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.6ca52657.css",
-    "main.js": "/CV/static/js/main.e56600f6.js",
+    "main.js": "/CV/static/js/main.0a1cbc07.js",
     "static/js/787.a71561b8.chunk.js": "/CV/static/js/787.a71561b8.chunk.js",
-    "static/media/SN.jpg": "/CV/static/media/SN.a6d530ea583518db2f01.jpg",
-    "static/media/things.jpg": "/CV/static/media/things.c84b597b90a9923d8c4e.jpg",
-    "static/media/cards.jpg": "/CV/static/media/cards.c4fb2b13fde54672c32e.jpg",
-    "static/media/todo.jpg": "/CV/static/media/todo.06762fbbd7517e336265.jpg",
     "static/media/cv.pdf": "/CV/static/media/cv.f9d4b048c38984a07f62.pdf",
-    "static/media/counter.jpg": "/CV/static/media/counter.5d4710077015ebc56e68.jpg",
     "static/media/FuturaPT-Light.eot": "/CV/static/media/FuturaPT-Light.f24dc6ae7df8e317848f.eot",
     "static/media/FuturaPT-Light.ttf": "/CV/static/media/FuturaPT-Light.ba102592d3130f78636b.ttf",
     "static/media/FuturaPT-Book.eot": "/CV/static/media/FuturaPT-Book.55bc418ad8b9ed8d577c.eot",
     "static/media/FuturaPT-Book.ttf": "/CV/static/media/FuturaPT-Book.16ebcf48c36cedf12d82.ttf",
+    "static/media/SN.jpg": "/CV/static/media/SN.2120bc1beee513d869e0.jpg",
+    "static/media/cards.jpg": "/CV/static/media/cards.e138fbc1ff34e80d8e62.jpg",
+    "static/media/todo.jpg": "/CV/static/media/todo.dccc272eb917d073a843.jpg",
     "static/media/FuturaPT-Light.woff": "/CV/static/media/FuturaPT-Light.bcdac18d371a99c86ee4.woff",
     "static/media/FuturaPT-Book.woff": "/CV/static/media/FuturaPT-Book.4b3409651ccb2875bac1.woff",
+    "static/media/things.jpg": "/CV/static/media/things.f5854e715b0989491d24.jpg",
+    "static/media/counter.jpg": "/CV/static/media/counter.3028ba1870bffbf2ed92.jpg",
     "static/media/HelveticaNeueCyr-Light.eot": "/CV/static/media/HelveticaNeueCyr-Light.fa2646c666ddd686575a.eot",
     "static/media/HelveticaNeueCyr-Light.ttf": "/CV/static/media/HelveticaNeueCyr-Light.371670cc0c4aa701241a.ttf",
     "static/media/social.jpg": "/CV/static/media/social.86fabd36d420d20144a6.jpg",
@@ -32,11 +32,11 @@
     "index.html": "/CV/index.html",
     "static/media/css.svg": "/CV/static/media/css.1a81e060f9e38d76d69cfa15161fda7c.svg",
     "main.6ca52657.css.map": "/CV/static/css/main.6ca52657.css.map",
-    "main.e56600f6.js.map": "/CV/static/js/main.e56600f6.js.map",
+    "main.0a1cbc07.js.map": "/CV/static/js/main.0a1cbc07.js.map",
     "787.a71561b8.chunk.js.map": "/CV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ca52657.css",
-    "static/js/main.e56600f6.js"
+    "static/js/main.0a1cbc07.js"
   ]
 }
