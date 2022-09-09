@@ -22,7 +22,7 @@ const Contacts = () => {
         </div>
       </div>
 
-      <NavLink to={'/CV'} className={app.linkBack}>
+      <NavLink to={'/'} className={app.linkBack}>
         <img src={close} alt={'close'} />
       </NavLink>
     </div>
