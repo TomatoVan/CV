@@ -2,6 +2,8 @@ import React from 'react'
 
 import { useFormik } from 'formik'
 
+import { messagesAPI } from '../../../../../api/sendMessage'
+
 import s from './ContactFormBlock.module.scss'
 
 export const ContactFormBlock = () => {
@@ -28,6 +30,16 @@ export const ContactFormBlock = () => {
       return errors
     },
     onSubmit: values => {
+      const data = {
+        name: values.name,
+        email: values.email,
+        message: values.message,
+      }
+
+      messagesAPI.sendMessage(data).then(res => {
+        console.log('message has been sent')
+        console.log(res)
+      })
       console.log(values)
       formik.resetForm()
     },
