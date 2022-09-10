@@ -1,5 +1,3 @@
-const path = require('path')
-
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const express = require('express')
@@ -12,19 +10,6 @@ let smtp_login = process.env.SMTP_LOGIN || '---'
 let smtp_password = process.env.SMTP_PASSWORD || '---'
 
 app.use(cors({ origin: 'https://tomatovan.github.io' }))
-
-//testing
-app.use(express.json())
-// Your static pre-build assets folder
-app.use(express.static(path.join(__dirname, '..', 'build')))
-// Root Redirects to pre-build assets
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '..', 'build'))
-})
-// Any Page Redirects to pre-build assets folder index.html that // will load the React app
-app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, '..', 'build/index.html'))
-})
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
