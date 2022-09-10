@@ -11,7 +11,7 @@ let port = process.env.PORT || 3000
 let smtp_login = process.env.SMTP_LOGIN || '---'
 let smtp_password = process.env.SMTP_PASSWORD || '---'
 
-app.use(cors())
+app.use(cors({ origin: 'https://tomatovan.github.io' }))
 
 //testing
 app.use(express.json())
@@ -24,10 +24,6 @@ app.get('/', function (req, res) {
 // Any Page Redirects to pre-build assets folder index.html that // will load the React app
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, '..', 'build/index.html'))
-})
-
-app.listen(port, () => {
-  console.log(`Example app listening!, ${port}`)
 })
 
 // parse application/x-www-form-urlencoded
@@ -61,4 +57,8 @@ app.post('/sendMessage', async (req, res) => {
   })
 
   console.log(info)
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening!, ${port}`)
 })
