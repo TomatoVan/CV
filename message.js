@@ -9,7 +9,8 @@ let port = process.env.PORT || 3000
 let smtp_login = process.env.SMTP_LOGIN || '---'
 let smtp_password = process.env.SMTP_PASSWORD || '---'
 
-app.use(cors({ origin: 'https://tomatovan.github.io/CV' }))
+app.options('*', cors())
+app.use(cors({ origin: 'https://tomatovan.github.io' }))
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
