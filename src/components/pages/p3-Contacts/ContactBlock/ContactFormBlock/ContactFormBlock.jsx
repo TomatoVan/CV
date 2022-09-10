@@ -29,18 +29,21 @@ export const ContactFormBlock = () => {
 
       return errors
     },
-    onSubmit: values => {
-      const data = {
-        name: values.name,
-        email: values.email,
-        message: values.message,
-      }
-
-      messagesAPI.sendMessage(data).then(res => {
-        console.log('message has been sent')
-        console.log(res)
-      })
+    onSubmit: async values => {
       console.log(values)
+
+      const { name, email, message } = values
+
+      try {
+        const res = await messagesAPI.sendMessage({ name, email, message })
+
+        if (res.data === 'ok') {
+          console.log('message has been sent')
+          console.log(res)
+        }
+      } catch (err) {
+        console.log(err)
+      }
       formik.resetForm()
     },
   })
