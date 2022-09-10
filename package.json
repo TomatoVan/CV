@@ -38,7 +38,8 @@
     "webpack": "^5.69.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node message.js",
+    "start-local": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
