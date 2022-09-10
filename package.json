@@ -25,6 +25,7 @@
     "formik": "^2.2.9",
     "gh-pages": "^3.2.3",
     "nodemailer": "^6.7.8",
+    "path": "^0.12.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1",
@@ -38,7 +39,7 @@
     "webpack": "^5.69.1"
   },
   "scripts": {
-    "start": "node message.js",
+    "start": "react-scripts start",
     "start-local": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
