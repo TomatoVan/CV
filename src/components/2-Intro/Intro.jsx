@@ -6,7 +6,7 @@ import { TypingEffect } from './TypingEffect/TypingEffect'
 const Intro = () => {
   return (
     <a className={`${s.intro}`}>
-      <span className={s.textIntro}>Hi There! I`m</span>
+      <span className={s.textIntro}>Hi There, I&apos;m</span>
       <span className={s.textIntroName}>Leonid Kovzel</span>
       <TypingEffect />
     </a>
