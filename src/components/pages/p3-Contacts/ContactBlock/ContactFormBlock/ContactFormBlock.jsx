@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { useFormik } from 'formik'
 
@@ -7,6 +7,8 @@ import { messagesAPI } from '../../../../../api/sendMessage'
 import s from './ContactFormBlock.module.scss'
 
 export const ContactFormBlock = () => {
+  const [messageSent, useMessageSent] = useState(false)
+
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -23,28 +25,25 @@ export const ContactFormBlock = () => {
       }
       if (!values.message) {
         errors.message = 'Required'
-      } else if (values.message.length < 5) {
-        errors.password = 'Why so short message?'
       }
 
       return errors
     },
     onSubmit: async values => {
-      console.log(values)
-
       const { name, email, message } = values
 
+      useMessageSent(true)
       try {
         const res = await messagesAPI.sendMessage({ name, email, message })
 
         if (res.data === 'ok') {
           console.log('message has been sent')
-          console.log(res)
         }
       } catch (err) {
         console.log(err)
+      } finally {
+        formik.resetForm()
       }
-      formik.resetForm()
     },
   })
 
@@ -58,41 +57,45 @@ export const ContactFormBlock = () => {
         </p>
       </div>
       <div className={s.formBox}>
-        <form onSubmit={formik.handleSubmit} className={s.group}>
-          <input
-            className={s.input}
-            placeholder="Your name"
-            type="text"
-            required
-            {...formik.getFieldProps('name')}
-          />
-          {formik.touched.name && formik.errors.name && (
-            <div style={{ color: 'red' }}>{formik.errors.name}</div>
-          )}
-          <input
-            className={s.input}
-            placeholder="Your email"
-            type="email"
-            required
-            {...formik.getFieldProps('email')}
-          />
-          {formik.touched.email && formik.errors.email && (
-            <div style={{ color: 'red' }}>{formik.errors.email}</div>
-          )}
-          <input
-            className={s.input}
-            placeholder="Your message"
-            type="text"
-            required
-            {...formik.getFieldProps('message')}
-          />
-          {formik.touched.message && formik.errors.message && (
-            <div style={{ color: 'red' }}>{formik.errors.message}</div>
-          )}
-          <button type="submit" className={s.formBtn}>
-            Send Message
-          </button>
-        </form>
+        {messageSent ? (
+          <div className={s.submitMessage}>MESSAGE SENT :)</div>
+        ) : (
+          <form onSubmit={formik.handleSubmit} className={s.group}>
+            <input
+              className={s.input}
+              placeholder="Your name"
+              type="text"
+              required
+              {...formik.getFieldProps('name')}
+            />
+            {formik.touched.name && formik.errors.name && (
+              <div className={s.inputError}>{formik.errors.name}</div>
+            )}
+            <input
+              className={s.input}
+              placeholder="Your email"
+              type="email"
+              required
+              {...formik.getFieldProps('email')}
+            />
+            {formik.touched.email && formik.errors.email && (
+              <div className={s.inputError}>{formik.errors.email}</div>
+            )}
+            <input
+              className={s.input}
+              placeholder="Your message"
+              type="text"
+              required
+              {...formik.getFieldProps('message')}
+            />
+            {formik.touched.message && formik.errors.message && (
+              <div className={s.inputError}>{formik.errors.message}</div>
+            )}
+            <button type="submit" className={s.formBtn}>
+              Send Message
+            </button>
+          </form>
+        )}
       </div>
     </div>
   )

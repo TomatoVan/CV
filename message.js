@@ -33,8 +33,6 @@ app.get('/', function (req, res) {
 app.post('/sendMessage', async (req, res) => {
   let { name, email, message } = req.body.data
 
-  console.log(res.body)
-
   // send mail with defined transport object
   let info = await transporter.sendMail({
     from: `"${name}" <${email}>`, // sender address
@@ -45,8 +43,6 @@ app.post('/sendMessage', async (req, res) => {
 	<div>contacts: ${email}</div>
 	<div>message: ${message}</div>`,
   })
-
-  console.log(info)
 })
 
 app.listen(port, () => {
