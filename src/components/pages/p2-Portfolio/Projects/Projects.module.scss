@@ -82,9 +82,8 @@
   font-size: 15px;
   color: white;
   text-decoration: none;
-  :hover {
+  &:hover {
     color: #ffb400;
-
     transition: 0.3ms;
   }
 }

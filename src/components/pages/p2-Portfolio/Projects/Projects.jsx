@@ -2,12 +2,12 @@ import React from 'react'
 
 import { v1 } from 'uuid'
 
-import cards from '../Projects/ProjectCover/cards.jpg'
-import counter from '../Projects/ProjectCover/counter.jpg'
-import SN from '../Projects/ProjectCover/SN.jpg'
-import cover from '../Projects/ProjectCover/social.jpg'
-import things from '../Projects/ProjectCover/things.jpg'
-import todo from '../Projects/ProjectCover/todo.jpg'
+import cards from '../../../../assets/images/ProjectCover/cards.jpg'
+import counter from '../../../../assets/images/ProjectCover/counter.jpg'
+import SN from '../../../../assets/images/ProjectCover/SN.jpg'
+import cover from '../../../../assets/images/ProjectCover/social.jpg'
+import things from '../../../../assets/images/ProjectCover/things.jpg'
+import todo from '../../../../assets/images/ProjectCover/todo.jpg'
 
 import s from './Projects.module.scss'
 

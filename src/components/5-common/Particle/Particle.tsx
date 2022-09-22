@@ -58,11 +58,6 @@ export const Particle = () => {
     },
   }
 
-  // fullScreen: { enable: false },
-  // style: {
-  // 	position: 'absolute',
-  // },
-
   // @ts-ignore
   return <Particles init={customInit} options={options} />
 }
